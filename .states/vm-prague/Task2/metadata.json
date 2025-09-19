@@ -1,0 +1,19 @@
+{
+  "name": "我的第一个NFT",
+  "description": "这是我创建的第一个NFT。",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeifqnkbkos7o7rfhdcscc4che4mzsdha2zjf6cegcackjd6es4yfga",
+  "attributes": [
+    {
+      "trait_type": "暖暖",
+      "value": "漂亮"
+    },
+    {
+      "trait_type": "稀有度",
+      "value": "传奇"
+    },
+    {
+      "trait_type": "创作时间",
+      "value": "20250917"
+    }
+  ]
+}
