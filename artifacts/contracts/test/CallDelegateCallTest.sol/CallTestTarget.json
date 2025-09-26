@@ -1,0 +1,93 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "CallTestTarget",
+  "sourceName": "contracts/test/CallDelegateCallTest.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "contractAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCurrentState",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reset",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "sender",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateState",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "value",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60808060405234610016576101ba908161001c8239f35b600080fdfe608080604052600436101561001357600080fd5b600090813560e01c908163378aa70114610148575080633fa4f2451461012b57806367e404ce14610102578063cc8a55e2146100c4578063d826f88f1461008e5763f6b4dfb41461006357600080fd5b3461008b578060031936011261008b576002546040516001600160a01b039091168152602090f35b80fd5b503461008b578060031936011261008b578080556bffffffffffffffffffffffff60a01b80600154166001556002541660025580f35b503461008b57602036600319011261008b5760043581556bffffffffffffffffffffffff60a01b338160015416176001553090600254161760025580f35b503461008b578060031936011261008b576001546040516001600160a01b039091168152602090f35b503461008b578060031936011261008b5760209054604051908152f35b90503461018057816003193601126101805790546001546002549183526001600160a01b039081166020840152166040820152606090f35b5080fdfea2646970667358221220a7fe194e5251737b974e04a6eefb4eee139ca6824498bb1c241879bea59324b964736f6c63430008160033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c908163378aa70114610148575080633fa4f2451461012b57806367e404ce14610102578063cc8a55e2146100c4578063d826f88f1461008e5763f6b4dfb41461006357600080fd5b3461008b578060031936011261008b576002546040516001600160a01b039091168152602090f35b80fd5b503461008b578060031936011261008b578080556bffffffffffffffffffffffff60a01b80600154166001556002541660025580f35b503461008b57602036600319011261008b5760043581556bffffffffffffffffffffffff60a01b338160015416176001553090600254161760025580f35b503461008b578060031936011261008b576001546040516001600160a01b039091168152602090f35b503461008b578060031936011261008b5760209054604051908152f35b90503461018057816003193601126101805790546001546002549183526001600160a01b039081166020840152166040820152606090f35b5080fdfea2646970667358221220a7fe194e5251737b974e04a6eefb4eee139ca6824498bb1c241879bea59324b964736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

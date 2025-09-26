@@ -16,13 +16,7 @@ contract NftAuctionFactory {
         uint256 tokenId
     ) external returns (address) {
         NftAuction auction = new NftAuction();
-        auction.initialize(
-            msg.sender,
-            duration,
-            startPrice,
-            nftContractAddress,
-            tokenId
-        );
+        auction.initialize();
         auctions.push(address(auction));
         auctionMap[tokenId] = auction;
 

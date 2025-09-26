@@ -3,6 +3,7 @@ pragma solidity ^0.8.22;
 
 import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
 
@@ -12,7 +13,7 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
 
 import "hardhat/console.sol";
 
-contract NftAuction is Initializable, UUPSUpgradeable {
+contract NftAuction is Initializable, UUPSUpgradeable, ReentrancyGuardUpgradeable {
     // 结构体
     struct Auction {
         // 卖家
@@ -50,6 +51,7 @@ contract NftAuction is Initializable, UUPSUpgradeable {
     mapping(address => AggregatorV3Interface) public priceFeeds;
 
     function initialize() public initializer {
+        __ReentrancyGuard_init();
         admin = msg.sender;
     }
 

@@ -1,0 +1,102 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EIP1967Demo",
+  "sourceName": "contracts/test/CallDelegateCallTest.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getAdmin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getImplementation",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "regularAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "regularValue1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "regularValue2",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newAdmin",
+          "type": "address"
+        }
+      ],
+      "name": "setAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newImplementation",
+          "type": "address"
+        }
+      ],
+      "name": "setImplementation",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610227908161001c8239f35b600080fdfe6080604052600436101561001257600080fd5b6000803560e01c908163502ac2401461008a575080636e9960c314610085578063704b6c0214610080578063aaf10f421461007b578063c1dd2c1014610076578063cbe50673146100715763d784d4261461006c57600080fd5b6101bf565b6101a1565b610178565b61013c565b61010a565b6100a7565b346100a457806003193601126100a4575460805260206080f35b80fd5b346100e35760003660031901126100e3577fb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d61035460005260206000f35b600080fd5b60209060031901126100e3576004356001600160a01b03811681036100e35790565b346100e357610118366100e8565b7fb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d610355005b346100e35760003660031901126100e3577f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5460005260206000f35b346100e35760003660031901126100e3576002546040516001600160a01b039091168152602090f35b346100e35760003660031901126100e3576020600154604051908152f35b346100e3576101cd366100e8565b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5500fea26469706673582212208574851ef847c19526624ea24413da6d09277c0aa0067213d1d88f25080b94b964736f6c63430008160033",
+  "deployedBytecode": "0x6080604052600436101561001257600080fd5b6000803560e01c908163502ac2401461008a575080636e9960c314610085578063704b6c0214610080578063aaf10f421461007b578063c1dd2c1014610076578063cbe50673146100715763d784d4261461006c57600080fd5b6101bf565b6101a1565b610178565b61013c565b61010a565b6100a7565b346100a457806003193601126100a4575460805260206080f35b80fd5b346100e35760003660031901126100e3577fb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d61035460005260206000f35b600080fd5b60209060031901126100e3576004356001600160a01b03811681036100e35790565b346100e357610118366100e8565b7fb53127684a568b3173ae13b9f8a6016e243e63b6e8ee1178d6a717850b5d610355005b346100e35760003660031901126100e3577f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5460005260206000f35b346100e35760003660031901126100e3576002546040516001600160a01b039091168152602090f35b346100e35760003660031901126100e3576020600154604051908152f35b346100e3576101cd366100e8565b7f360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc5500fea26469706673582212208574851ef847c19526624ea24413da6d09277c0aa0067213d1d88f25080b94b964736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

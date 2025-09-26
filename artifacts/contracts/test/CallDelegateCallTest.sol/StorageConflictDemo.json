@@ -1,0 +1,105 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "StorageConflictDemo",
+  "sourceName": "contracts/test/CallDelegateCallTest.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "setBalance",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_value2",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValues",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "value1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "value2",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60808060405234610016576101a8908161001c8239f35b600080fdfe60806040818152600436101561001457600080fd5b600091823560e01c90816327e235e31461011f575080633033413b146101015780635d33a27f146100e35780638da5cb5b146100bc5780639c3dfaf61461009a5763e30443bc1461006457600080fd5b346100965780600319360112610096576001600160a01b03610084610157565b16825260036020526024359082205580f35b5080fd5b5034610096573660031901126100b95760043560015560243560025580f35b80fd5b5034610096578160031936011261009657905490516001600160a01b039091168152602090f35b50346100965781600319360112610096576020906002549051908152f35b50346100965781600319360112610096576020906001549051908152f35b91905034610153576020366003190112610153576020926001600160a01b03610146610157565b1681526003845220548152f35b8280fd5b600435906001600160a01b038216820361016d57565b600080fdfea26469706673582212204806a64077b4427872ace3f64a7749bbf3c8549a817e426d379a38464805412764736f6c63430008160033",
+  "deployedBytecode": "0x60806040818152600436101561001457600080fd5b600091823560e01c90816327e235e31461011f575080633033413b146101015780635d33a27f146100e35780638da5cb5b146100bc5780639c3dfaf61461009a5763e30443bc1461006457600080fd5b346100965780600319360112610096576001600160a01b03610084610157565b16825260036020526024359082205580f35b5080fd5b5034610096573660031901126100b95760043560015560243560025580f35b80fd5b5034610096578160031936011261009657905490516001600160a01b039091168152602090f35b50346100965781600319360112610096576020906002549051908152f35b50346100965781600319360112610096576020906001549051908152f35b91905034610153576020366003190112610153576020926001600160a01b03610146610157565b1681526003845220548152f35b8280fd5b600435906001600160a01b038216820361016d57565b600080fdfea26469706673582212204806a64077b4427872ace3f64a7749bbf3c8549a817e426d379a38464805412764736f6c63430008160033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

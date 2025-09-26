@@ -1,0 +1,60 @@
+{
+  "localhost": {
+    "chainId": 31337,
+    "rpc": "http://127.0.0.1:8545",
+    "proxy": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+    "implementation": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+    "deployer": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266",
+    "deployedAt": "2025-09-24T11:27:11.838Z",
+    "implementationV2": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+    "upgradeTransaction": "0x50d28427ba69c87d127f706f9a4c7da3e4e630fa6060408bc96d40a38e2172cc",
+    "upgradedAt": "2025-09-24T11:29:49.786Z",
+    "testNFT": "",
+    "factory": ""
+  },
+  "goerli": {
+    "chainId": 5,
+    "rpc": "https://goerli.infura.io/v3/YOUR_PROJECT_ID",
+    "proxy": "",
+    "implementation": "",
+    "deployer": "",
+    "deployedAt": "",
+    "implementationV2": "",
+    "upgradeTransaction": "",
+    "upgradedAt": "",
+    "testNFT": "",
+    "factory": ""
+  },
+  "sepolia": {
+    "chainId": 11155111,
+    "rpc": "https://sepolia.infura.io/v3/YOUR_PROJECT_ID",
+    "proxy": "",
+    "implementation": "",
+    "deployer": "",
+    "deployedAt": "",
+    "implementationV2": "",
+    "upgradeTransaction": "",
+    "upgradedAt": "",
+    "testNFT": "",
+    "factory": ""
+  },
+  "mainnet": {
+    "chainId": 1,
+    "rpc": "https://mainnet.infura.io/v3/YOUR_PROJECT_ID",
+    "proxy": "",
+    "implementation": "",
+    "deployer": "",
+    "deployedAt": "",
+    "implementationV2": "",
+    "upgradeTransaction": "",
+    "upgradedAt": "",
+    "testNFT": "",
+    "factory": ""
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "createdAt": "2025-09-24T13:08:51.908Z",
+    "description": "NFT拍卖平台部署配置文件",
+    "lastUpdated": "2025-09-24T13:08:51.908Z"
+  }
+}
